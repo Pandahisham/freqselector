@@ -1,0 +1,4 @@
+freqselector
+============
+
+jQuery freqselector plugin
