@@ -78,13 +78,13 @@
         height: 80px;
         // line-height: 42px;
         width: 144px;
-        display: inline-block;
+        display: block;
         background: transparent url("@{urlPath}/ruler.png") repeat-x top left;
         text-align: center;
         margin: 0px;
         padding: 0px;
         padding-top: 18px;
-        clear: both;
+        float:left;
 
         .freqselector-item-title {
           color: #555;
@@ -116,6 +116,10 @@
       }
 
       .freqselector-item-not-dummy {
+      }
+
+      .clear {
+        clear: both;
       }
     }
   }

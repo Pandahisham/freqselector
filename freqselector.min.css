@@ -58,13 +58,13 @@
 .freqselector .freqselector-background .freqselector-content .freqselector-item {
   height: 80px;
   width: 144px;
-  display: inline-block;
+  display: block;
   background: transparent url("images/freqselector/default/ruler.png") repeat-x top left;
   text-align: center;
   margin: 0px;
   padding: 0px;
   padding-top: 18px;
-  clear: both;
+  float: left;
 }
 .freqselector .freqselector-background .freqselector-content .freqselector-item .freqselector-item-title {
   color: #555;
@@ -87,4 +87,7 @@
   float: left;
   clear: both;
   visibility: hidden;
+}
+.freqselector .freqselector-background .freqselector-content .clear {
+  clear: both;
 }
